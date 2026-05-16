@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="309.90549928026246" y2="0" width="0" layer="20"/>
+<wire x1="309.90549928026246" y1="0" x2="309.90549928026246" y2="248.4848905962894" width="0" layer="20"/>
+<wire x1="309.90549928026246" y1="248.4848905962894" x2="0" y2="248.4848905962894" width="0" layer="20"/>
+<wire x1="0" y1="248.4848905962894" x2="0" y2="0" width="0" layer="20"/>
+</plain>
+<libraries>
+<library name="Tinkercad" urn="urn:adsk.eagle:library:30890021">
+<packages>
+<package name="BATTERY-GENERIC" urn="urn:adsk.eagle:footprint:32408253/3"><pad name="-" x="-2.54" y="0" drill="1.1176" diameter="3.1496" shape="octagon"/><pad name="+" x="2.54" y="0" drill="1.1176" diameter="3.1496" shape="octagon"/><wire x1="-4.318" y1="2.54" x2="-5.08" y2="1.778" width="0.1524" layer="21"/><wire x1="-5.08" y1="1.778" x2="-5.08" y2="-1.778" width="0.1524" layer="21"/><wire x1="-5.08" y1="-1.778" x2="-4.318" y2="-2.54" width="0.1524" layer="21"/><wire x1="-4.318" y1="-2.54" x2="4.318" y2="-2.54" width="0.1524" layer="21"/><wire x1="4.318" y1="-2.54" x2="5.08" y2="-1.778" width="0.1524" layer="21"/><wire x1="5.08" y1="-1.778" x2="5.08" y2="1.778" width="0.1524" layer="21"/><wire x1="5.08" y1="1.778" x2="4.318" y2="2.54" width="0.1524" layer="21"/><wire x1="2.54" y1="1.905" x2="2.54" y2="3.175" width="0.254" layer="21"/><wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.254" layer="21"/><wire x1="-3.048" y1="2.54" x2="-1.905" y2="2.54" width="0.254" layer="21"/><text x="0" y="3.81" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-3.81" size="1.27" layer="27" align="top-center">&gt;VALUE</text></package>
+<package name="LEDRD254W60D565H860B" urn="urn:adsk.eagle:footprint:16378492/2"><description>Radial LED (Round), 2.54 mm pitch, 5.65 mm body diameter, 8.60 mm body height
+&lt;p&gt;Radial LED (Round) package with 2.54 mm pitch (lead spacing), 0.60 mm lead width, 0.50 mm lead thickness, 5.65 mm body diameter and 8.60 mm body height&lt;/p&gt;</description><wire x1="2.5425" y1="1.2314" x2="-2.825" y2="0" width="0.12" layer="21" curve="154.1581"/><wire x1="2.5425" y1="-1.2314" x2="-2.825" y2="0" width="0.12" layer="21" curve="-154.1581"/><wire x1="2.5425" y1="1.2314" x2="2.5425" y2="-1.2314" width="0.12" layer="21"/><wire x1="-2.5946" y1="2.5946" x2="-1.8446" y2="2.5946" width="0.12" layer="21"/><wire x1="-2.2196" y1="2.9696" x2="-2.2196" y2="2.2196" width="0.12" layer="21"/><pad name="1" x="-1.27" y="0" drill="0.981" diameter="1.581"/><pad name="2" x="1.27" y="0" drill="0.981" diameter="1.581"/><circle x="0" y="0" radius="2.825" width="0.12" layer="51"/><text x="0" y="3.6046" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-3.4642" size="1.27" layer="27" align="top-center">&gt;VALUE</text></package>
+<package name="RESAD1016W63L850D250B" urn="urn:adsk.eagle:footprint:31513019/2"><description>Axial Resistor, 10.16 mm pitch, 8.50 mm body length, 2.50 mm body diameter
+ &lt;p&gt;Axial Resistor package with 10.16 mm pitch (lead spacing), 0.63 mm lead diameter, 8.50 mm body length and 2.50 mm body diameter&lt;/p&gt;</description><pad name="1" x="-5.08" y="0" drill="0.83" diameter="1.43"/><pad name="2" x="5.08" y="0" drill="0.83" diameter="1.43"/><wire x1="-4.25" y1="-1.25" x2="-4.25" y2="1.25" width="0.12" layer="21"/><wire x1="-4.25" y1="1.25" x2="4.25" y2="1.25" width="0.12" layer="21"/><wire x1="4.25" y1="1.25" x2="4.25" y2="-1.25" width="0.12" layer="21"/><wire x1="4.25" y1="-1.25" x2="-4.25" y2="-1.25" width="0.12" layer="21"/><wire x1="-4.25" y1="0" x2="-4.111" y2="0" width="0.12" layer="21"/><wire x1="4.25" y1="0" x2="4.111" y2="0" width="0.12" layer="21"/><wire x1="-4.25" y1="-1.25" x2="-4.25" y2="1.25" width="0.12" layer="51"/><wire x1="-4.25" y1="1.25" x2="4.25" y2="1.25" width="0.12" layer="51"/><wire x1="4.25" y1="1.25" x2="4.25" y2="-1.25" width="0.12" layer="51"/><wire x1="4.25" y1="-1.25" x2="-4.25" y2="-1.25" width="0.12" layer="51"/><text x="0" y="1.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-1.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text></package>
+<package name="78B04ST" urn="urn:adsk.eagle:footprint:32429430/2"><pad name="1" x="-3.81" y="-3.81" drill="0.8"/><pad name="2" x="-1.27" y="-3.81" drill="0.8"/><pad name="3" x="1.27" y="-3.81" drill="0.8"/><pad name="4" x="3.81" y="-3.81" drill="0.8"/><pad name="5" x="3.81" y="3.81" drill="0.8"/><pad name="6" x="1.27" y="3.81" drill="0.8"/><pad name="7" x="-1.27" y="3.81" drill="0.8"/><pad name="8" x="-3.81" y="3.81" drill="0.8"/><wire x1="-6.096" y1="-4.826" x2="6.096" y2="-4.826" width="0.127" layer="21"/><wire x1="6.096" y1="-4.826" x2="6.096" y2="4.826" width="0.127" layer="21"/><wire x1="6.096" y1="4.826" x2="-6.096" y2="4.826" width="0.127" layer="21"/><wire x1="-6.096" y1="4.826" x2="-6.096" y2="-4.826" width="0.127" layer="21"/><text x="0" y="5.08" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-5.08" size="1.27" layer="27" align="top-center">&gt;VALUE</text><circle x="-5.334" y="-4.064" radius="0.127" width="0.254" layer="21"/></package>
+<package name="DIP762W53P254L1969H508Q14B" urn="urn:adsk.eagle:footprint:32405030/2"><description>14-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 19.69 X 6.35 X 5.08 mm body
+ &lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 19.69 X 6.35 X 5.08 mm&lt;/p&gt;</description><pad name="1" x="-3.81" y="7.62" drill="0.7434" diameter="1.3434"/><pad name="2" x="-3.81" y="5.08" drill="0.7434" diameter="1.3434"/><pad name="3" x="-3.81" y="2.54" drill="0.7434" diameter="1.3434"/><pad name="4" x="-3.81" y="0" drill="0.7434" diameter="1.3434"/><pad name="5" x="-3.81" y="-2.54" drill="0.7434" diameter="1.3434"/><pad name="6" x="-3.81" y="-5.08" drill="0.7434" diameter="1.3434"/><pad name="7" x="-3.81" y="-7.62" drill="0.7434" diameter="1.3434"/><pad name="8" x="3.81" y="-7.62" drill="0.7434" diameter="1.3434"/><pad name="9" x="3.81" y="-5.08" drill="0.7434" diameter="1.3434"/><pad name="10" x="3.81" y="-2.54" drill="0.7434" diameter="1.3434"/><pad name="11" x="3.81" y="0" drill="0.7434" diameter="1.3434"/><pad name="12" x="3.81" y="2.54" drill="0.7434" diameter="1.3434"/><pad name="13" x="3.81" y="5.08" drill="0.7434" diameter="1.3434"/><pad name="14" x="3.81" y="7.62" drill="0.7434" diameter="1.3434"/><circle x="-4.9857" y="7.62" radius="0.25" width="0" layer="21"/><wire x1="-3.3" y1="8.5457" x2="-3.3" y2="9.845" width="0.12" layer="21"/><wire x1="-3.3" y1="9.845" x2="3.3" y2="9.845" width="0.12" layer="21"/><wire x1="3.3" y1="9.845" x2="3.3" y2="8.5457" width="0.12" layer="21"/><wire x1="-3.3" y1="-8.5457" x2="-3.3" y2="-9.845" width="0.12" layer="21"/><wire x1="-3.3" y1="-9.845" x2="3.3" y2="-9.845" width="0.12" layer="21"/><wire x1="3.3" y1="-9.845" x2="3.3" y2="-8.5457" width="0.12" layer="21"/><wire x1="-3.3" y1="-9.845" x2="-3.3" y2="9.845" width="0.12" layer="51"/><wire x1="-3.3" y1="9.845" x2="3.3" y2="9.845" width="0.12" layer="51"/><wire x1="3.3" y1="9.845" x2="3.3" y2="-9.845" width="0.12" layer="51"/><wire x1="3.3" y1="-9.845" x2="-3.3" y2="-9.845" width="0.12" layer="51"/><text x="0" y="10.48" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-10.48" size="1.27" layer="27" align="top-center">&gt;VALUE</text></package>
+<package name="78F01T" urn="urn:adsk.eagle:footprint:32429429/2"><pad name="1" x="-1.27" y="-3.81" drill="0.8"/><pad name="2" x="1.27" y="-3.81" drill="0.8"/><pad name="3" x="1.27" y="3.81" drill="0.8"/><pad name="4" x="-1.27" y="3.81" drill="0.8"/><wire x1="-3.81" y1="-4.826" x2="3.81" y2="-4.826" width="0.127" layer="21"/><wire x1="3.81" y1="-4.826" x2="3.81" y2="4.826" width="0.127" layer="21"/><wire x1="3.81" y1="4.826" x2="-3.81" y2="4.826" width="0.127" layer="21"/><wire x1="-3.81" y1="4.826" x2="-3.81" y2="-4.826" width="0.127" layer="21"/><text x="0" y="5.08" size="1.27" layer="25" align="bottom-center">&gt;NAME</text><text x="0" y="-5.08" size="1.27" layer="27" align="top-center">&gt;VALUE</text><circle x="-3.048" y="-4.064" radius="0.127" width="0.254" layer="21"/></package>
+</packages>
+<packages3d>
+<package3d name="BATTERY-GENERIC" urn="urn:adsk.eagle:package:32408255/4" type="model"><packageinstances><packageinstance name="BATTERY-GENERIC"/></packageinstances></package3d>
+<package3d name="LEDRD254W60D565H860B" urn="urn:adsk.eagle:package:16378508/2" type="model"><description>Radial LED (Round), 2.54 mm pitch, 5.65 mm body diameter, 8.60 mm body height
+&lt;p&gt;Radial LED (Round) package with 2.54 mm pitch (lead spacing), 0.60 mm lead width, 0.50 mm lead thickness, 5.65 mm body diameter and 8.60 mm body height&lt;/p&gt;</description><packageinstances><packageinstance name="LEDRD254W60D565H860B"/></packageinstances></package3d>
+<package3d name="RESAD1016W63L850D250B" urn="urn:adsk.eagle:package:31513020/2" type="model"><description>Axial Resistor, 10.16 mm pitch, 8.50 mm body length, 2.50 mm body diameter
+ &lt;p&gt;Axial Resistor package with 10.16 mm pitch (lead spacing), 0.63 mm lead diameter, 8.50 mm body length and 2.50 mm body diameter&lt;/p&gt;</description><packageinstances><packageinstance name="RESAD1016W63L850D250B"/></packageinstances></package3d>
+<package3d name="78B04ST" urn="urn:adsk.eagle:package:32429434/2" type="model"><packageinstances><packageinstance name="78B04ST"/></packageinstances></package3d>
+<package3d name="DIP762W53P254L1969H508Q14B" urn="urn:adsk.eagle:package:32405040/2" type="model"><description>14-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 19.69 X 6.35 X 5.08 mm body
+ &lt;p&gt;14-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 19.69 X 6.35 X 5.08 mm&lt;/p&gt;</description><packageinstances><packageinstance name="DIP762W53P254L1969H508Q14B"/></packageinstances></package3d>
+<package3d name="78F01T" urn="urn:adsk.eagle:package:32429433/2" type="model"><packageinstances><packageinstance name="78F01T"/></packageinstances></package3d>
+</packages3d>
+</library></libraries>
+<attributes/>
+<variantdefs/>
+<classes>
+<class number="0" name="default" width="0" drill="0"/>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.
+</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.
+</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes"/>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes"/>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="R1" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="220" x="64.8654" y="218.7775" rot="R90" smashed="yes"/>
+<element name="D1" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/2" value="RED" x="64.8654" y="212.4275" rot="R270" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="64.8654" y="212.4275" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="64.8654" y="212.4275" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="64.8654" y="212.4275" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="64.8654" y="212.4275" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="64.8654" y="212.4275" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="64.8654" y="212.4275" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="64.8654" y="212.4275" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="64.8654" y="212.4275" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="64.8654" y="212.4275" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="64.8654" y="212.4275" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="64.8654" y="212.4275" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="64.8654" y="212.4275" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="64.8654" y="212.4275" size="1.778" layer="27" display="off"/>
+</element>
+<element name="UAND" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="DIP762W53P254L1969H508Q14B" package3d_urn="urn:adsk.eagle:package:32405040/2" value="74HC08_PDIP" x="67.4054" y="227.6675" rot="R90" smashed="yes"/>
+<element name="SW1" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="78B04ST" package3d_urn="urn:adsk.eagle:package:32429434/2" value="SPST-478B04ST" x="38.4236" y="202.4615" smashed="yes"/>
+<element name="P2" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="BATTERY-GENERIC" package3d_urn="urn:adsk.eagle:package:32408255/4" value="BATTERYGENERIC" x="8.255" y="233.652" rot="R180" smashed="yes"/>
+<element name="R2" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="220" x="174.5591" y="223.5629" rot="R90" smashed="yes"/>
+<element name="D2" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/2" value="RED" x="174.5591" y="217.2129" rot="R270" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="174.5591" y="217.2129" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="174.5591" y="217.2129" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="174.5591" y="217.2129" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="174.5591" y="217.2129" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="174.5591" y="217.2129" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="174.5591" y="217.2129" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="174.5591" y="217.2129" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="174.5591" y="217.2129" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="174.5591" y="217.2129" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="174.5591" y="217.2129" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="174.5591" y="217.2129" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="174.5591" y="217.2129" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="174.5591" y="217.2129" size="1.778" layer="27" display="off"/>
+</element>
+<element name="UOR" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="DIP762W53P254L1969H508Q14B" package3d_urn="urn:adsk.eagle:package:32405040/2" value="74HC32_PDIP" x="177.0991" y="232.4529" rot="R90" smashed="yes"/>
+<element name="SW2" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="78B04ST" package3d_urn="urn:adsk.eagle:package:32429434/2" value="SPST-478B04ST" x="148.1173" y="207.2469" smashed="yes"/>
+<element name="P1" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="BATTERY-GENERIC" package3d_urn="urn:adsk.eagle:package:32408255/4" value="BATTERYGENERIC" x="117.9487" y="238.4374" rot="R180" smashed="yes"/>
+<element name="R3" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="220" x="66.7655" y="116.5935" rot="R90" smashed="yes"/>
+<element name="D3" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/2" value="RED" x="66.7655" y="110.2435" rot="R270" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="66.7655" y="110.2435" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="66.7655" y="110.2435" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="66.7655" y="110.2435" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="66.7655" y="110.2435" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="66.7655" y="110.2435" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="66.7655" y="110.2435" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="66.7655" y="110.2435" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="66.7655" y="110.2435" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="66.7655" y="110.2435" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="66.7655" y="110.2435" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="66.7655" y="110.2435" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="66.7655" y="110.2435" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="66.7655" y="110.2435" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U2" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="DIP762W53P254L1969H508Q14B" package3d_urn="urn:adsk.eagle:package:32405040/2" value="74HC04_PDIP" x="71.8455" y="125.4835" rot="R90" smashed="yes"/>
+<element name="SW3" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="78F01T" package3d_urn="urn:adsk.eagle:package:32429433/2" value="DPST78F01T" x="39.675" y="102.3132" smashed="yes"/>
+<element name="P3" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="BATTERY-GENERIC" package3d_urn="urn:adsk.eagle:package:32408255/4" value="BATTERYGENERIC" x="10.1551" y="131.468" rot="R180" smashed="yes"/>
+<element name="R4" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="220" x="177.9685" y="117.2296" rot="R90" smashed="yes"/>
+<element name="D4" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/2" value="RED" x="177.9685" y="110.8796" rot="R270" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="177.9685" y="110.8796" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="177.9685" y="110.8796" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="177.9685" y="110.8796" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="177.9685" y="110.8796" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="177.9685" y="110.8796" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="177.9685" y="110.8796" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="177.9685" y="110.8796" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="177.9685" y="110.8796" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="177.9685" y="110.8796" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="177.9685" y="110.8796" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="177.9685" y="110.8796" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="177.9685" y="110.8796" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="177.9685" y="110.8796" size="1.778" layer="27" display="off"/>
+</element>
+<element name="P4" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="BATTERY-GENERIC" package3d_urn="urn:adsk.eagle:package:32408255/4" value="BATTERYGENERIC" x="121.3581" y="132.104" rot="R180" smashed="yes"/>
+<element name="U1" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="DIP762W53P254L1969H508Q14B" package3d_urn="urn:adsk.eagle:package:32405040/2" value="74HC00_PDIP" x="180.5085" y="126.1196" rot="R90" smashed="yes"/>
+<element name="SW4" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="78B04ST" package3d_urn="urn:adsk.eagle:package:32429434/2" value="SPST-478B04ST" x="152.5955" y="103.9555" smashed="yes"/>
+<element name="R5" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="220" x="287.3605" y="225.3554" rot="R90" smashed="yes"/>
+<element name="D5" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/2" value="RED" x="287.3605" y="219.0054" rot="R270" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="287.3605" y="219.0054" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="287.3605" y="219.0054" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="287.3605" y="219.0054" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="287.3605" y="219.0054" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="287.3605" y="219.0054" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="287.3605" y="219.0054" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="287.3605" y="219.0054" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="287.3605" y="219.0054" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="287.3605" y="219.0054" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="287.3605" y="219.0054" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="287.3605" y="219.0054" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="287.3605" y="219.0054" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="287.3605" y="219.0054" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U3" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="DIP762W53P254L1969H508Q14B" package3d_urn="urn:adsk.eagle:package:32405040/2" value="74HC02_PDIP" x="294.9805" y="234.2454" rot="R90" smashed="yes"/>
+<element name="SW5" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="78B04ST" package3d_urn="urn:adsk.eagle:package:32429434/2" value="SPST-478B04ST" x="261.9875" y="212.0813" smashed="yes"/>
+<element name="P5" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="BATTERY-GENERIC" package3d_urn="urn:adsk.eagle:package:32408255/4" value="BATTERYGENERIC" x="230.7501" y="240.2299" rot="R180" smashed="yes"/>
+<element name="R6" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="220" x="287.7453" y="117.8928" rot="R90" smashed="yes"/>
+<element name="D6" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/2" value="RED" x="287.7453" y="111.5428" rot="R270" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="287.7453" y="111.5428" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="287.7453" y="111.5428" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="287.7453" y="111.5428" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="287.7453" y="111.5428" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="287.7453" y="111.5428" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="287.7453" y="111.5428" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="287.7453" y="111.5428" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="287.7453" y="111.5428" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="287.7453" y="111.5428" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="287.7453" y="111.5428" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="287.7453" y="111.5428" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="287.7453" y="111.5428" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="287.7453" y="111.5428" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U4" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="DIP762W53P254L1969H508Q14B" package3d_urn="urn:adsk.eagle:package:32405040/2" value="74HC86_PDIP" x="290.2853" y="126.7828" rot="R90" smashed="yes"/>
+<element name="SW6" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="78B04ST" package3d_urn="urn:adsk.eagle:package:32429434/2" value="SPST-478B04ST" x="262.3723" y="104.6188" smashed="yes"/>
+<element name="P6" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="BATTERY-GENERIC" package3d_urn="urn:adsk.eagle:package:32408255/4" value="BATTERYGENERIC" x="231.1349" y="132.7673" rot="R180" smashed="yes"/>
+<element name="R7" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="RESAD1016W63L850D250B" package3d_urn="urn:adsk.eagle:package:31513020/2" value="220" x="181.4621" y="22.7991" rot="R90" smashed="yes"/>
+<element name="D7" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="LEDRD254W60D565H860B" package3d_urn="urn:adsk.eagle:package:16378508/2" value="RED" x="181.4621" y="16.4491" rot="R270" smashed="yes">
+<attribute name="CATEGORY" value="Opto-Electronic" x="181.4621" y="16.4491" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="" x="181.4621" y="16.4491" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="181.4621" y="16.4491" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="181.4621" y="16.4491" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="181.4621" y="16.4491" size="1.778" layer="27" display="off"/>
+<attribute name="OPERATING_TEMP" value="" x="181.4621" y="16.4491" size="1.778" layer="27" display="off"/>
+<attribute name="PART_STATUS" value="" x="181.4621" y="16.4491" size="1.778" layer="27" display="off"/>
+<attribute name="ROHS_COMPLIANT" value="" x="181.4621" y="16.4491" size="1.778" layer="27" display="off"/>
+<attribute name="SERIES" value="" x="181.4621" y="16.4491" size="1.778" layer="27" display="off"/>
+<attribute name="SUB-CATEGORY" value="LED" x="181.4621" y="16.4491" size="1.778" layer="27" display="off"/>
+<attribute name="THERMALLOSS" value="" x="181.4621" y="16.4491" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="" x="181.4621" y="16.4491" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="LED_RED" x="181.4621" y="16.4491" size="1.778" layer="27" display="off"/>
+</element>
+<element name="P7" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="BATTERY-GENERIC" package3d_urn="urn:adsk.eagle:package:32408255/4" value="BATTERYGENERIC" x="124.8517" y="37.6735" rot="R180" smashed="yes"/>
+<element name="U6" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="DIP762W53P254L1969H508Q14B" package3d_urn="urn:adsk.eagle:package:32405040/2" value="74HC04_PDIP" x="192.0388" y="34.699" rot="R360" smashed="yes"/>
+<element name="SW7" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="78B04ST" package3d_urn="urn:adsk.eagle:package:32429434/2" value="SPST-478B04ST" x="156.089" y="9.525" smashed="yes"/>
+<element name="U5" library="Tinkercad" library_urn="urn:adsk.eagle:library:30890021" package="DIP762W53P254L1969H508Q14B" package3d_urn="urn:adsk.eagle:package:32405040/2" value="74HC86_PDIP" x="176.4326" y="54.0467" rot="R90" smashed="yes"/>
+</elements>
+<signals>
+<signal name="UAND_1Y">
+<contactref element="R1" pad="2"/>
+<contactref element="UAND" pad="3"/>
+<wire x1="64.8654" y1="223.8575" x2="64.8654" y2="223.8575" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D1_A">
+<contactref element="D1" pad="1"/>
+<contactref element="R1" pad="1"/>
+<wire x1="64.8654" y1="213.6975" x2="64.8654" y2="213.6975" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P2-">
+<contactref element="D1" pad="2"/>
+<contactref element="UAND" pad="7"/>
+<contactref element="P2" pad="-"/>
+<wire x1="64.8654" y1="211.1575" x2="75.0254" y2="223.8575" width="0" layer="19" extent="1-1"/>
+<wire x1="64.8654" y1="211.1575" x2="10.795" y2="233.652" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="UAND_1B">
+<contactref element="SW1" pad="2"/>
+<contactref element="UAND" pad="2"/>
+<wire x1="37.1536" y1="198.6515" x2="62.3254" y2="223.8575" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="UAND_1A">
+<contactref element="SW1" pad="1"/>
+<contactref element="UAND" pad="1"/>
+<wire x1="34.6136" y1="198.6515" x2="59.7854" y2="223.8575" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P2+">
+<contactref element="P2" pad="+"/>
+<contactref element="SW1" pad="8"/>
+<contactref element="UAND" pad="14"/>
+<contactref element="SW1" pad="7"/>
+<wire x1="34.6136" y1="206.2715" x2="37.1536" y2="206.2715" width="0" layer="19" extent="1-1"/>
+<wire x1="59.7854" y1="231.4775" x2="37.1536" y2="206.2715" width="0" layer="19" extent="1-1"/>
+<wire x1="5.715" y1="233.652" x2="34.6136" y2="206.2715" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D2_A">
+<contactref element="D2" pad="1"/>
+<contactref element="R2" pad="1"/>
+<wire x1="174.5591" y1="218.4829" x2="174.5591" y2="218.4829" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="UOR_1Y">
+<contactref element="UOR" pad="3"/>
+<contactref element="R2" pad="2"/>
+<wire x1="174.5591" y1="228.6429" x2="174.5591" y2="228.6429" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P1-">
+<contactref element="D2" pad="2"/>
+<contactref element="P1" pad="-"/>
+<contactref element="UOR" pad="7"/>
+<wire x1="174.5591" y1="215.9429" x2="184.7191" y2="228.6429" width="0" layer="19" extent="1-1"/>
+<wire x1="174.5591" y1="215.9429" x2="120.4887" y2="238.4374" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="UOR_1B">
+<contactref element="SW2" pad="2"/>
+<contactref element="UOR" pad="2"/>
+<wire x1="146.8473" y1="203.4369" x2="172.0191" y2="228.6429" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P1+">
+<contactref element="P1" pad="+"/>
+<contactref element="SW2" pad="8"/>
+<contactref element="SW2" pad="7"/>
+<contactref element="UOR" pad="14"/>
+<wire x1="144.3073" y1="211.0569" x2="146.8473" y2="211.0569" width="0" layer="19" extent="1-1"/>
+<wire x1="146.8473" y1="211.0569" x2="169.4791" y2="236.2629" width="0" layer="19" extent="1-1"/>
+<wire x1="115.4087" y1="238.4374" x2="144.3073" y2="211.0569" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="UOR_1A">
+<contactref element="SW2" pad="1"/>
+<contactref element="UOR" pad="1"/>
+<wire x1="144.3073" y1="203.4369" x2="169.4791" y2="228.6429" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D3_A">
+<contactref element="D3" pad="1"/>
+<contactref element="R3" pad="1"/>
+<wire x1="66.7655" y1="111.5135" x2="66.7655" y2="111.5135" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U2_1Y">
+<contactref element="U2" pad="2"/>
+<contactref element="R3" pad="2"/>
+<wire x1="66.7655" y1="121.6735" x2="66.7655" y2="121.6735" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P3-">
+<contactref element="P3" pad="-"/>
+<contactref element="D3" pad="2"/>
+<contactref element="U2" pad="7"/>
+<wire x1="66.7655" y1="108.9735" x2="79.4655" y2="121.6735" width="0" layer="19" extent="1-1"/>
+<wire x1="12.6951" y1="131.468" x2="66.7655" y2="108.9735" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U2_1A">
+<contactref element="SW3" pad="1"/>
+<contactref element="U2" pad="1"/>
+<wire x1="38.405" y1="98.5032" x2="64.2255" y2="121.6735" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P3+">
+<contactref element="U2" pad="14"/>
+<contactref element="SW3" pad="4"/>
+<contactref element="P3" pad="+"/>
+<wire x1="64.2255" y1="129.2935" x2="38.405" y2="106.1232" width="0" layer="19" extent="1-1"/>
+<wire x1="38.405" y1="106.1232" x2="7.6151" y2="131.468" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D4_A">
+<contactref element="D4" pad="1"/>
+<contactref element="R4" pad="1"/>
+<wire x1="177.9685" y1="112.1496" x2="177.9685" y2="112.1496" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U1_1Y">
+<contactref element="U1" pad="3"/>
+<contactref element="R4" pad="2"/>
+<wire x1="177.9685" y1="122.3096" x2="177.9685" y2="122.3096" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P4-">
+<contactref element="P4" pad="-"/>
+<contactref element="D4" pad="2"/>
+<contactref element="U1" pad="7"/>
+<wire x1="177.9685" y1="109.6096" x2="188.1285" y2="122.3096" width="0" layer="19" extent="1-1"/>
+<wire x1="123.8981" y1="132.104" x2="177.9685" y2="109.6096" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P4+">
+<contactref element="P4" pad="+"/>
+<contactref element="SW4" pad="8"/>
+<contactref element="U1" pad="14"/>
+<contactref element="SW4" pad="7"/>
+<wire x1="148.7855" y1="107.7655" x2="151.3255" y2="107.7655" width="0" layer="19" extent="1-1"/>
+<wire x1="172.8885" y1="129.9296" x2="151.3255" y2="107.7655" width="0" layer="19" extent="1-1"/>
+<wire x1="118.8181" y1="132.104" x2="148.7855" y2="107.7655" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U1_1B">
+<contactref element="SW4" pad="2"/>
+<contactref element="U1" pad="2"/>
+<wire x1="151.3255" y1="100.1455" x2="175.4285" y2="122.3096" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U1_1A">
+<contactref element="SW4" pad="1"/>
+<contactref element="U1" pad="1"/>
+<wire x1="148.7855" y1="100.1455" x2="172.8885" y2="122.3096" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D5_A">
+<contactref element="D5" pad="1"/>
+<contactref element="R5" pad="1"/>
+<wire x1="287.3605" y1="220.2754" x2="287.3605" y2="220.2754" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U3_1Y">
+<contactref element="U3" pad="1"/>
+<contactref element="R5" pad="2"/>
+<wire x1="287.3605" y1="230.4354" x2="287.3605" y2="230.4354" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P5-">
+<contactref element="P5" pad="-"/>
+<contactref element="D5" pad="2"/>
+<contactref element="U3" pad="7"/>
+<wire x1="287.3605" y1="217.7354" x2="302.6005" y2="230.4354" width="0" layer="19" extent="1-1"/>
+<wire x1="233.2901" y1="240.2299" x2="287.3605" y2="217.7354" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U3_1B">
+<contactref element="SW5" pad="2"/>
+<contactref element="U3" pad="3"/>
+<wire x1="260.7175" y1="208.2713" x2="292.4405" y2="230.4354" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P5+">
+<contactref element="P5" pad="+"/>
+<contactref element="SW5" pad="8"/>
+<contactref element="SW5" pad="7"/>
+<contactref element="U3" pad="14"/>
+<wire x1="258.1775" y1="215.8913" x2="260.7175" y2="215.8913" width="0" layer="19" extent="1-1"/>
+<wire x1="260.7175" y1="215.8913" x2="287.3605" y2="238.0554" width="0" layer="19" extent="1-1"/>
+<wire x1="228.2101" y1="240.2299" x2="258.1775" y2="215.8913" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U3_1A">
+<contactref element="SW5" pad="1"/>
+<contactref element="U3" pad="2"/>
+<wire x1="258.1775" y1="208.2713" x2="289.9005" y2="230.4354" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D6_A">
+<contactref element="D6" pad="1"/>
+<contactref element="R6" pad="1"/>
+<wire x1="287.7453" y1="112.8128" x2="287.7453" y2="112.8128" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U4_1Y">
+<contactref element="U4" pad="3"/>
+<contactref element="R6" pad="2"/>
+<wire x1="287.7453" y1="122.9728" x2="287.7453" y2="122.9728" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P6-">
+<contactref element="P6" pad="-"/>
+<contactref element="D6" pad="2"/>
+<contactref element="U4" pad="7"/>
+<wire x1="287.7453" y1="110.2728" x2="297.9053" y2="122.9728" width="0" layer="19" extent="1-1"/>
+<wire x1="233.6749" y1="132.7673" x2="287.7453" y2="110.2728" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U4_1B">
+<contactref element="SW6" pad="2"/>
+<contactref element="U4" pad="2"/>
+<wire x1="261.1023" y1="100.8088" x2="285.2053" y2="122.9728" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P6+">
+<contactref element="P6" pad="+"/>
+<contactref element="SW6" pad="8"/>
+<contactref element="SW6" pad="7"/>
+<contactref element="U4" pad="14"/>
+<wire x1="258.5623" y1="108.4288" x2="261.1023" y2="108.4288" width="0" layer="19" extent="1-1"/>
+<wire x1="261.1023" y1="108.4288" x2="282.6653" y2="130.5928" width="0" layer="19" extent="1-1"/>
+<wire x1="228.5949" y1="132.7673" x2="258.5623" y2="108.4288" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U4_1A">
+<contactref element="SW6" pad="1"/>
+<contactref element="U4" pad="1"/>
+<wire x1="258.5623" y1="100.8088" x2="282.6653" y2="122.9728" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D7_A">
+<contactref element="D7" pad="1"/>
+<contactref element="R7" pad="1"/>
+<wire x1="181.4621" y1="17.7191" x2="181.4621" y2="17.7191" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U6_1Y">
+<contactref element="R7" pad="2"/>
+<contactref element="U6" pad="2"/>
+<wire x1="181.4621" y1="27.8791" x2="188.2288" y2="39.779" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P7-">
+<contactref element="P7" pad="-"/>
+<contactref element="D7" pad="2"/>
+<wire x1="127.3917" y1="37.6735" x2="181.4621" y2="15.1791" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="P7+">
+<contactref element="P7" pad="+"/>
+<contactref element="SW7" pad="8"/>
+<contactref element="SW7" pad="7"/>
+<contactref element="U5" pad="14"/>
+<contactref element="U6" pad="14"/>
+<wire x1="152.279" y1="13.335" x2="154.819" y2="13.335" width="0" layer="19" extent="1-1"/>
+<wire x1="122.3117" y1="37.6735" x2="152.279" y2="13.335" width="0" layer="19" extent="1-1"/>
+<wire x1="154.819" y1="13.335" x2="168.8126" y2="57.8567" width="0" layer="19" extent="1-1"/>
+<wire x1="168.8126" y1="57.8567" x2="195.8488" y2="42.319" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U6_1A">
+<contactref element="U6" pad="1"/>
+<contactref element="U5" pad="3"/>
+<wire x1="188.2288" y1="42.319" x2="173.8926" y2="50.2367" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U5_1B">
+<contactref element="SW7" pad="2"/>
+<contactref element="U5" pad="2"/>
+<wire x1="154.819" y1="5.715" x2="171.3526" y2="50.2367" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U5_1A">
+<contactref element="SW7" pad="1"/>
+<contactref element="U5" pad="1"/>
+<wire x1="152.279" y1="5.715" x2="168.8126" y2="50.2367" width="0" layer="19" extent="1-1"/>
+</signal>
+</signals>
+</board>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">Since Version 8.3, EAGLE supports URNs for individual library assets (packages, symbols, and devices). The URNs of those assets will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">Since Version 8.3, EAGLE supports the association of 3D packages with devices in libraries, schematics, and board files. Those 3D packages will not be understood (or retained) with this version.
+</note>
+<note version="8.4" severity="warning">Since Version 8.4, EAGLE supports properties for SPICE simulation. Probes in schematics and SPICE mapping objects found in parts and library devices will not be understood with this version. Update EAGLE to the latest version for full support of SPICE simulation.
+</note>
+</compatibility>
+</eagle>
