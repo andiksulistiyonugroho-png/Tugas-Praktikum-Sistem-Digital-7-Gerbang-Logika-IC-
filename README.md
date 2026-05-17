@@ -1,7 +1,7 @@
 #### Nama anggota kelompok 3 shift B :
  1. Andik Sulistiyo Nugroho (H1H025001)
  2. Safina Nabilatuz Zulfa (H1H025003)
- 3. Agnisa Lintang Anjali (H1H025067)
+ 3. Agnisa Lintang Anjali (H1H025066)
 
 ---
 
