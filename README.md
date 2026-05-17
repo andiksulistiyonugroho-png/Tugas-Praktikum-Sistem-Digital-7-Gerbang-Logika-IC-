@@ -152,4 +152,4 @@ IC 74HC02 memiliki susunan pin yang terbalik dibandingkan IC logika lainnya. **P
 
 ---
 
-*Link Tinkercad : https://www.tinkercad.com/things/2rbzXxFRrMF-7-gerbang-logika-ic/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=tx-edy6d2iAeVRWufEmkoj4fR36kkGWU6cyLF7Z6KtI*
+*Link Tinkercad : https://www.tinkercad.com/things/2rbzXxFRrMF-7-gerbang-logika-ic/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=CyXh9FvdddFv0ObrKkWPpEmiV1nQIBuXhKJ7325rvTw*
